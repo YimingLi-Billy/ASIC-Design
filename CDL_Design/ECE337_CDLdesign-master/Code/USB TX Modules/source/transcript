@@ -1,0 +1,748 @@
+# //  Questa Sim-64
+# //  Version 10.3b linux_x86_64 May 29 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:44:46 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(15): near "=": syntax error, unexpected '=', expecting ++ or --
+# End time: 12:44:46 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:45:16 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 12:45:16 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:45:19 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(14): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:45:19 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:14 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(14): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:46:14 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:15 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(14): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:46:15 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:48 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 12:46:48 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:52 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(15): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:46:52 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:53 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(15): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:46:53 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:46:53 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(15): near "rollover_value": syntax error, unexpected IDENTIFIER, expecting .* or '.'
+# End time: 12:46:53 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:16 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(17): near "always_comb": syntax error, unexpected always_comb, expecting class
+# End time: 12:47:16 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:17 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(17): near "always_comb": syntax error, unexpected always_comb, expecting class
+# End time: 12:47:17 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:37 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(23): near "endmodule": syntax error, unexpected endmodule
+# End time: 12:47:37 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:39 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv(23): near "endmodule": syntax error, unexpected endmodule
+# End time: 12:47:39 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:50 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# 
+# Top level modules:
+# 	usb_timer
+# End time: 12:47:51 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:54 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv 
+# -- Compiling module usb_pts
+# 
+# Top level modules:
+# 	usb_pts
+# End time: 12:47:54 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:47:57 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(23): near "always_comb": syntax error, unexpected always_comb
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(31): near "else": syntax error, unexpected else
+# End time: 12:47:57 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:48:25 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(28): (vlog-2730) Undefined variable: 'dmiuns_out'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(32): (vlog-2730) Undefined variable: 'dmins_out'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(41): near "else": syntax error, unexpected else
+# End time: 12:48:26 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:48:26 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(28): (vlog-2730) Undefined variable: 'dmiuns_out'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(32): (vlog-2730) Undefined variable: 'dmins_out'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(41): near "else": syntax error, unexpected else
+# End time: 12:48:27 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:49:55 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv(40): near "else": syntax error, unexpected else
+# End time: 12:49:55 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:50:27 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# 
+# Top level modules:
+# 	usb_encoder
+# End time: 12:50:27 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:50:31 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(15): near "=": syntax error, unexpected '=', expecting ++ or --
+# End time: 12:50:32 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:51:22 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(16): (vlog-2730) Undefined variable: 'stuff_bit_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(19): (vlog-2730) Undefined variable: 'stuff_bit_end'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(19): (vlog-2730) Undefined variable: 'nxt_stuff_bit_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(20): (vlog-2730) Undefined variable: 'e'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(21): near "end": syntax error, unexpected end
+# End time: 12:51:22 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:51:23 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(16): (vlog-2730) Undefined variable: 'stuff_bit_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(19): (vlog-2730) Undefined variable: 'stuff_bit_end'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(19): (vlog-2730) Undefined variable: 'nxt_stuff_bit_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(20): (vlog-2730) Undefined variable: 'e'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(21): near "end": syntax error, unexpected end
+# End time: 12:51:23 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:52:47 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(21): (vlog-2730) Undefined variable: 'e'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(22): near "end": syntax error, unexpected end
+# End time: 12:52:47 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:53:22 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(23): (vlog-2730) Undefined variable: 'comb'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv(23): near "begin": syntax error, unexpected begin
+# End time: 12:53:22 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:53:52 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# 
+# Top level modules:
+# 	usb_bit_stuffer
+# End time: 12:53:52 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:54:00 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(11): near "output": syntax error, unexpected output, expecting ')'
+# End time: 12:54:00 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:54:19 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(42): (vlog-2730) Undefined variable: 'data_set'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(43): (vlog-2730) Undefined variable: 'count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(46): (vlog-2730) Undefined variable: 'nxt_state'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(51): (vlog-2730) Undefined variable: 'data_set'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(51): (vlog-2730) Undefined variable: 'nxt_data_set'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(52): (vlog-2730) Undefined variable: 'count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(52): (vlog-2730) Undefined variable: 'nxt_count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(55): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(57): (vlog-2388) 'count_packet' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(59): near ":": syntax error, unexpected ':'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(76): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(79): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(110): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(113): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(117): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(122): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 12:54:20 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 16, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:54:54 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(44): (vlog-2730) Undefined variable: 'count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(53): (vlog-2730) Undefined variable: 'count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(53): (vlog-2730) Undefined variable: 'nxt_count_packet'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(56): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(57): (vlog-2388) 'data_set' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(57): (vlog-2388) 'nxt_data_set' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(58): (vlog-2388) 'count_packet' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(60): near ":": syntax error, unexpected ':'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(77): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(80): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(111): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(114): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(118): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(123): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 12:54:54 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:55:44 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(57): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(58): (vlog-2388) 'data_set' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(58): (vlog-2388) 'nxt_data_set' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(59): (vlog-2388) 'count_packet' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(59): (vlog-2388) 'nxt_count_packet' already declared in this scope (usb_controller).
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(61): near ":": syntax error, unexpected ':'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(78): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(81): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(112): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(115): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(119): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(124): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 12:55:44 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:57:18 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(60): near ":": syntax error, unexpected ':'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(77): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(80): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(111): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(114): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(118): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(123): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 12:57:18 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:58:33 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv 
+# -- Compiling module usb_pts
+# 
+# Top level modules:
+# 	usb_pts
+# End time: 12:58:34 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:58:37 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv 
+# -- Compiling module usb_pts
+# 
+# Top level modules:
+# 	usb_pts
+# End time: 12:58:37 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:58:39 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(72): near "end": syntax error, unexpected end
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(80): (vlog-2730) Undefined variable: 'EOP'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(83): near "else": syntax error, unexpected else
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(111): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(114): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(118): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(123): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# End time: 12:58:40 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 12:58:59 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(80): (vlog-2730) Undefined variable: 'EOP'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(91): (vlog-2730) Undefined variable: 'nxt_get_tx_packet_data'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(96): (vlog-2730) Undefined variable: 'EOP'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(98): near "else": syntax error, unexpected else
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(108): (vlog-2730) Undefined variable: 'nxt_get_tx_packet_data'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(110): (vlog-2730) Undefined variable: 'bit_stuff_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(123): (vlog-2730) Undefined variable: 'nxt_stae'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(133): near "endmodule": syntax error, unexpected endmodule
+# End time: 12:58:59 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:01:22 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(100): (vlog-2730) Undefined variable: 'EOP'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(102): near "else": syntax error, unexpected else
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(114): (vlog-2730) Undefined variable: 'bit_stuff_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(127): (vlog-2730) Undefined variable: 'nxt_stae'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(137): near "endmodule": syntax error, unexpected endmodule
+# End time: 13:01:22 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:01:36 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(102): near "else": syntax error, unexpected else
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(114): (vlog-2730) Undefined variable: 'bit_stuff_en'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(127): (vlog-2730) Undefined variable: 'nxt_stae'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(137): near "endmodule": syntax error, unexpected endmodule
+# End time: 13:01:36 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:02:07 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(129): (vlog-2730) Undefined variable: 'nxt_stae'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(139): near "endmodule": syntax error, unexpected endmodule
+# End time: 13:02:07 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:02:32 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# ** Error: (vlog-12003) /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(64): Variable 'count_packet' written by continuous and procedural assignments. See /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv(48). 
+# End time: 13:02:32 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /package/eda/mg/questa10.3b/questasim/linux_x86_64/vlog failed.
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:21 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# 
+# Top level modules:
+# 	usb_controller
+# End time: 13:04:22 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:29 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# 
+# Top level modules:
+# 	usb_bit_stuffer
+# End time: 13:04:29 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:31 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# 
+# Top level modules:
+# 	usb_controller
+# End time: 13:04:32 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:40 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# 
+# Top level modules:
+# 	usb_encoder
+# End time: 13:04:40 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:42 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv 
+# -- Compiling module usb_pts
+# 
+# Top level modules:
+# 	usb_pts
+# End time: 13:04:42 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:45 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# 
+# Top level modules:
+# 	usb_timer
+# End time: 13:04:45 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:48 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv 
+# -- Compiling module tb_usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(25): (vlog-2730) Undefined variable: 'ADDR_MAX_BIT'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(26): (vlog-2730) Undefined variable: 'DATA_MAX_BIT'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(118): near ".": syntax error, unexpected '.', expecting IDENTIFIER or TYPE_IDENTIFIER or '*'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(194): near "=": syntax error, unexpected '='
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(209): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(209): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(238): near "#": syntax error, unexpected '#'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(245): near "end": syntax error, unexpected end
+# End time: 13:04:48 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:51 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 13:04:51 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:53 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 13:04:53 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:54 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 13:04:54 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:54 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# End time: 13:04:54 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:54 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 13:04:54 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:04:56 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(11): near "s": syntax error, unexpected IDENTIFIER, expecting ')'
+# End time: 13:04:56 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:55:17 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv 
+# -- Compiling module tb_usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(25): (vlog-2730) Undefined variable: 'ADDR_MAX_BIT'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(26): (vlog-2730) Undefined variable: 'DATA_MAX_BIT'.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(118): near ".": syntax error, unexpected '.', expecting IDENTIFIER or TYPE_IDENTIFIER or '*'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(194): near "=": syntax error, unexpected '='
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(209): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(209): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(238): near "#": syntax error, unexpected '#'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/tb_usb_tx.sv(245): near "end": syntax error, unexpected end
+# End time: 13:55:17 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:55:48 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(30): (vlog-LRM-2367) Multiple connections to the same port: data.
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(34): near ".": syntax error, unexpected '.', expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(53): (vlog-LRM-2367) Multiple connections to the same port: clk.
+# End time: 13:55:48 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:03 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(34): near ".": syntax error, unexpected '.', expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(53): (vlog-LRM-2367) Multiple connections to the same port: clk.
+# End time: 13:57:03 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:04 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(34): near ".": syntax error, unexpected '.', expecting ')'
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(53): (vlog-LRM-2367) Multiple connections to the same port: clk.
+# End time: 13:57:04 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:11 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# ** Error: /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv(53): (vlog-LRM-2367) Multiple connections to the same port: clk.
+# End time: 13:57:11 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:26 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 13:57:26 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:26 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 13:57:27 on Nov 20,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:35 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_bit_stuffer.sv 
+# -- Compiling module usb_bit_stuffer
+# 
+# Top level modules:
+# 	usb_bit_stuffer
+# End time: 13:57:35 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:38 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_controller.sv 
+# -- Compiling module usb_controller
+# 
+# Top level modules:
+# 	usb_controller
+# End time: 13:57:38 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:41 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_encoder.sv 
+# -- Compiling module usb_encoder
+# 
+# Top level modules:
+# 	usb_encoder
+# End time: 13:57:41 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:44 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_pts.sv 
+# -- Compiling module usb_pts
+# 
+# Top level modules:
+# 	usb_pts
+# End time: 13:57:44 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:46 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_timer.sv 
+# -- Compiling module usb_timer
+# 
+# Top level modules:
+# 	usb_timer
+# End time: 13:57:46 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 13:57:49 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 13:57:49 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/CDL_CRC_16.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:29 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/CDL_CRC_16.sv 
+# -- Compiling module CDL_CRC_16
+# 
+# Top level modules:
+# 	CDL_CRC_16
+# End time: 14:08:29 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:37 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:37 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:38 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:38 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:39 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:39 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:40 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:40 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:41 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:41 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {/home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv}
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 14:08:42 on Nov 20,2019
+# vlog -reportprogress 300 -work work /home/ecegrid/a/mg76/ece337/ECE337_CDLdesign/Code/USB TX Modules/usb_tx.sv 
+# -- Compiling module usb_tx
+# 
+# Top level modules:
+# 	usb_tx
+# End time: 14:08:42 on Nov 20,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Break key hit

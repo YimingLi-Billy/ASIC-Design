@@ -1,0 +1,39 @@
+[10/28 20:48:24      0s] 
+[10/28 20:48:24      0s] Cadence Innovus(TM) Implementation System.
+[10/28 20:48:24      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[10/28 20:48:24      0s] 
+[10/28 20:48:24      0s] Version:	v16.12-s051_1, built Wed Aug 17 12:18:54 PDT 2016
+[10/28 20:48:24      0s] Options:	
+[10/28 20:48:24      0s] Date:		Mon Oct 28 20:48:24 2019
+[10/28 20:48:24      0s] Host:		ecegrid-thin3.ecn.purdue.edu (x86_64 w/Linux 2.6.32-754.23.1.el6.x86_64) (4cores*16cpus*Intel(R) Xeon(R) CPU E7340 @ 2.40GHz 4096KB)
+[10/28 20:48:24      0s] OS:		CentOS release 6.10 (Final)
+[10/28 20:48:24      0s] 
+[10/28 20:48:24      0s] License:
+[10/28 20:48:24      0s] 		invs	Innovus Implementation System	16.1	checkout succeeded
+[10/28 20:48:24      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[10/28 20:48:38     14s] @(#)CDS: Innovus v16.12-s051_1 (64bit) 08/17/2016 12:18 (Linux 2.6.18-194.el5)
+[10/28 20:48:38     14s] @(#)CDS: NanoRoute 16.12-s051_1 NR160816-1350/16_12-UB (database version 2.30, 347.6.1) {superthreading v1.30}
+[10/28 20:48:38     14s] @(#)CDS: AAE 16.12-s026 (64bit) 08/17/2016 (Linux 2.6.18-194.el5)
+[10/28 20:48:38     14s] @(#)CDS: CTE 16.12-s023_1 () Aug 12 2016 01:35:46 ( )
+[10/28 20:48:38     14s] @(#)CDS: SYNTECH 16.12-s009_1 () Aug 11 2016 01:33:09 ( )
+[10/28 20:48:38     14s] @(#)CDS: CPE v16.12-s054
+[10/28 20:48:38     14s] @(#)CDS: IQRC/TQRC 15.2.4-s467 (64bit) Wed Jul 20 17:12:38 PDT 2016 (Linux 2.6.18-194.el5)
+[10/28 20:48:38     14s] @(#)CDS: OA 22.50-p049 Fri Jun 10 10:56:20 2016
+[10/28 20:48:38     14s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[10/28 20:48:38     14s] @(#)CDS: RCDB 11.8
+[10/28 20:48:38     14s] --- Running on ecegrid-thin3.ecn.purdue.edu (x86_64 w/Linux 2.6.32-754.23.1.el6.x86_64) (4cores*16cpus*Intel(R) Xeon(R) CPU E7340 @ 2.40GHz 4096KB) ---
+[10/28 20:48:38     14s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_21544_ecegrid-thin3.ecn.purdue.edu_mg53_goo4kT.
+
+[10/28 20:48:40     15s] 
+[10/28 20:48:40     15s] **INFO:  MMMC transition support version v31-84 
+[10/28 20:48:40     15s] 
+[10/28 20:48:40     15s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[10/28 20:48:40     15s] <CMD> suppressMessage ENCEXT-2799
+[10/28 20:48:40     15s] <CMD> getDrawView
+[10/28 20:48:40     15s] <CMD> loadWorkspace -name Physical
+[10/28 20:48:40     15s] <CMD> win
+[10/28 20:49:10     20s] 
+[10/28 20:49:10     20s] *** Memory Usage v#1 (Current mem = 498.586M, initial mem = 166.582M) ***
+[10/28 20:49:10     20s] *** Message Summary: 0 warning(s), 0 error(s)
+[10/28 20:49:10     20s] 
+[10/28 20:49:10     20s] --- Ending "Innovus" (totcpu=0:00:20.6, real=0:00:46.0, mem=498.6M) ---

@@ -1,0 +1,108 @@
+# //  Questa Sim-64
+# //  Version 10.3b linux_x86_64 May 29 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -Lf /home/ecegrid/a/ece337/Course_Prod/IP_Libs/Lab_IP_Lib/Vsim -L /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB "+no_glitch_msg" -coverage -voptargs="+acc" -i -t ps source_work/.tb_sensor_d 
+# Start time: 16:14:41 on Aug 27,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: [13] source/sensor_d.sv(15): (vopt-2708) Expression Coverage ignoring this statement: unsupported infix operator
+# Loading sv_std.std
+# Loading work.tb_sensor_d(fast)
+# Loading work.sensor_d(fast)
+add wave -position insertpoint  \
+sim:/tb_sensor_d/test_input
+add wave -position insertpoint  \
+sim:/tb_sensor_d/test_output
+run 200ns
+# ** Info: Test case  0 Passed!
+#    Time: 9 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  1 Passed!
+#    Time: 19 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  2 Passed!
+#    Time: 29 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  3 Passed!
+#    Time: 39 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  4 Passed!
+#    Time: 49 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  5 Passed!
+#    Time: 59 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  6 Passed!
+#    Time: 69 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case  7 Failed!
+#    Time: 79 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case  8 Passed!
+#    Time: 89 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  9 Passed!
+#    Time: 99 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case 10 Passed!
+#    Time: 109 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case 11 Failed!
+#    Time: 119 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case 12 Passed!
+#    Time: 129 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case 13 Passed!
+#    Time: 139 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case 14 Failed!
+#    Time: 149 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case 15 Passed!
+#    Time: 159 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+add wave -position insertpoint  \
+sim:/tb_sensor_d/expected_output
+vlog source/sensor_d.sv
+# QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 16:18:09 on Aug 27,2019
+# vlog -reportprogress 300 source/sensor_d.sv 
+# -- Compiling module sensor_d
+# 
+# Top level modules:
+# 	sensor_d
+# End time: 16:18:09 on Aug 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.tb_sensor_d(fast)
+# Loading work.sensor_d(fast)
+run 200ns
+# ** Info: Test case  0 Passed!
+#    Time: 9 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  1 Passed!
+#    Time: 19 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  2 Passed!
+#    Time: 29 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  3 Passed!
+#    Time: 39 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  4 Passed!
+#    Time: 49 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  5 Passed!
+#    Time: 59 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  6 Passed!
+#    Time: 69 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case  7 Failed!
+#    Time: 79 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case  8 Passed!
+#    Time: 89 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case  9 Passed!
+#    Time: 99 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case 10 Passed!
+#    Time: 109 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case 11 Failed!
+#    Time: 119 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case 12 Passed!
+#    Time: 129 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Info: Test case 13 Passed!
+#    Time: 139 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+# ** Error: Test case 14 Failed!
+#    Time: 149 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 49
+# ** Info: Test case 15 Passed!
+#    Time: 159 ns  Scope: tb_sensor_d File: source/tb_sensor_d.sv Line: 47
+add wave -position insertpoint  \
+sim:/tb_sensor_d/DUT/sensors
+# End time: 16:19:42 on Aug 27,2019, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 2

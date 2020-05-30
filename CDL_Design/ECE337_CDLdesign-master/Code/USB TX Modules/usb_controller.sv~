@@ -1,0 +1,140 @@
+module usb_controller(
+input wire clk,
+input wire n_rst,
+input wire clk12,
+input wire [1:0]tx_packet,
+input wire [7:0]tx_packet_data,
+input wire [6:0]tx_packet_data_size,
+input wire [15:0]CRC,
+input wire [7:0] prev_parallel,
+input wire bytecomplete,
+output reg en,
+output reg CRC_en,
+output reg [7:0]data,
+output reg enc_en,
+output reg timer_en
+);
+reg [2:0] tx_pack = 3'b000;
+typedef enum bit [3:0]{IDLE,
+			SYNC,
+			PID,
+			DATA,
+			STUFFER_BIT,
+			CRC1,
+			CRC2,
+			EOP1,
+			EOP2
+}StateType;
+StateType state,nxt_state;
+reg[6:0] current_packet;
+reg stored_packet;
+reg data_sent;
+reg data_set,nxt_data_set;
+reg count_packet,nxt_count_packet;
+reg nxt_en,nxt_CRC_en,nxt_enc_en,nxt_timer_en;
+reg [7:0] nxt_data;
+always_ff@(posedge clk,negedge n_rst) begin
+	if(n_rst == 1'b0) begin
+		state<= IDLE;
+		en<=1'b0;	
+		CRC_en<=1'b0;
+		enc_en<=1'b0;
+		timer_en<=1'b0;
+		data<= 8'b0;
+		data_set<=1'b0;
+		count_packet<= 1'b0;
+	end
+	else begin
+		state<=nxt_state;
+		en<=nxt_en;
+		CRC_en<=nxt_CRC_en;
+		enc_en<=nxt_enc_en;
+		timer_en<=nxt_timer_en;
+		data_set<=nxt_data_set;
+		count_packet<=nxt_count_packet;
+	end
+end
+flex_counter #(7)E(.clk(clk),.n_rst(n_rst),.count_enable(count_packet),.rollover_value(tx_packet_data_size),.clear(1'b0),.rollover_flag(data_sent),.count_out(current_packet));
+
+assign count_packet = bytecomplete&&data_set;
+always_comb begin
+	case(state)
+	IDLE:begin
+		if(tx_packet != 2'b01) begin
+			nxt_state = SYNC;
+			stored_packet = tx_packet;
+			nxt_timer_en = 1'b1;
+			nxt_data = 8'b00000001;
+		end
+		else begin
+			nxt_state = IDLE;
+		end
+	end
+	SYNC:begin
+		if(bytecomplete == 1'b1) begin
+			nxt_state = PID;
+			if(stored_packet ==2'b01) begin
+					nxt_data = 8'b00000001;
+				end
+				else begin
+					nxt_state = EOP;
+				end
+			end
+			else begin
+				nxt_state = SYNC;
+			end
+	end
+	PID:begin
+		if(bytecomplete == 1'b1) begin
+			if(stored_packet ==2'b01) begin
+				nxt_state = DATA;
+				nxt_get_tx_packet_data = 1'b1;
+				nxt_data_set = 1'b1;
+				
+			end
+			else if (stored_packet == 2'b10) begin
+				nxt_state =EOP;
+				nxt_data = 8'b00101101;
+			else begin
+				nxt_state = EOP;
+				nxt_data = 8'b10100101;
+			end
+		end
+		else begin
+			nxt_state = PID;
+		end
+	end
+	DATA:begin
+		nxt_get_tx_packet_data = 1'b0;
+		nxt_count_packet = 1'b0;
+		if(bit_stuff_en == 1'b1) begin	
+			nxt_state = STUFFER_BIT;
+		end
+		else if(bytecomplete == 1'b1 && data_sent == 1'b1) begin
+				nxt_state = EOP1;
+				nxt_data_set = 1'b0;
+		end
+		else if(bytecomplete == 1'b1) begin
+			nxt_state = DATA;
+			nxt_count_packet = 1'b1;
+			nxt_get_tx_packet_data = 1'b1;
+		end
+		else begin
+			nxt_stae = DATA;
+		end
+	end
+	EOP1:begin
+		nxt_state = EOP2;
+	end
+	EOP2:begin
+		nxt_state = IDLE;
+	end
+endcase			
+endmodule
+
+
+
+
+			
+			
+

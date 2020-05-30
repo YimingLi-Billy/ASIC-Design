@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+Start time: 21:19:27 on Nov 22,2019
+vlog -sv -work source_work source/usb_tx.sv 
+-- Compiling module usb_tx
+
+Top level modules:
+	usb_tx
+End time: 21:19:27 on Nov 22,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

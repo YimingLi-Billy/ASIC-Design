@@ -1,0 +1,354 @@
+module usb_controller(
+input wire clk,
+input wire n_rst,
+input wire [7:0]tx_data,
+input wire [2:0]tx_packet,
+input wire ack,
+input wire [6:0]buffer_occupancy,
+input wire [15:0]CRC,
+input wire [7:0] prev_parallel,
+input wire bit_stuff_en,
+output reg en,
+output reg [3:0]data_id,
+output reg get_tx,
+output reg enc_en,
+output reg [7:0] data
+);
+reg [2:0] tx_pack = 3'b000;
+typedef enum bit [4:0]{IDLE,
+			EIDLE,
+			SYNC,
+			WAIT1,
+			PID,
+			WAIT2,
+			DATA,
+			WAIT3,
+			CRC1,
+			WAIT4,
+			CRC2,
+			WAIT5,
+			EOP1,
+			EOP2,
+			FIRST,
+			WAIT6,
+			SECOND,
+			WAIT7,
+			STUFF_BIT}StateType;
+StateType state,nextstate;
+always_ff @(posedge clk,negedge n_rst) begin
+	if(n_rst== 1'b0) begin
+		state<=IDLE;
+	end
+	else begin
+		state<=nextstate;
+	end
+end
+always_comb begin
+	if(tx_packet == 3'b000) begin
+				nextstate = IDLE;
+			end
+			else  begin //Data
+				nextstate = SYNC;
+			end
+			if(tx_packet != 3'b000) begin
+				tx_pack = tx_packet;
+			end	
+			else begin
+				tx_pack = 3'b000;
+			end
+	nextstate = state;
+	
+	case(state) 
+		IDLE:begin
+			if(tx_packet == 3'b000) begin
+				nextstate = IDLE;
+			end
+			else  begin //Data
+				nextstate = SYNC;
+			end
+			if(tx_packet != 3'b000) begin
+				tx_pack = tx_packet;
+			end	
+			else begin
+				tx_pack = 3'b000;
+			end
+			end
+		EIDLE:begin
+			nextstate = IDLE;
+		end
+		SYNC:begin 
+			nextstate = WAIT1;
+		end
+		WAIT1:begin
+			if(ack ==1) begin
+				nextstate = PID;
+			end
+			else begin
+				nextstate = WAIT1;
+			end
+			end
+		PID:begin
+			nextstate = WAIT2;
+			end
+		WAIT2:begin
+			if(ack ==1'b1) begin
+			if(tx_pack == 3'b001) begin //DATA TOKEN
+				nextstate = DATA;
+				end
+			else if (tx_pack == 3'b010) begin  //ACK
+				nextstate = EOP1;
+				end
+			else if (tx_pack == 3'b011) begin  //NACK
+				nextstate = EOP1;
+				end
+			else begin 
+				nextstate = FIRST;
+				end
+			end
+			else begin
+				nextstate = state;
+			end
+			end
+		DATA:begin
+			if(bit_stuff_en == 1'b1) begin
+				nextstate = STUFF_BIT;
+			end
+			else begin
+				nextstate = WAIT3;
+			end
+			end
+		WAIT3:begin
+			if(ack ==1)begin
+			if (bit_stuff_en == 1'b1) begin
+				nextstate = STUFF_BIT;
+			end
+			else if(buffer_occupancy ==0) begin
+				nextstate = CRC1;
+			end
+			else begin
+				nextstate = DATA;
+			end
+			end
+			else begin
+				if (bit_stuff_en == 1'b1) begin
+				nextstate = STUFF_BIT;
+				end
+			else begin
+				nextstate = WAIT3;
+			end
+			end
+			end
+		CRC1:begin
+			nextstate= WAIT4;
+			end
+		WAIT4:begin 
+			if(ack ==1) begin
+			nextstate = CRC2;
+			end
+			else begin
+			nextstate = WAIT4;
+			end
+			end
+		CRC2:begin
+			nextstate= WAIT5;
+			end
+		WAIT5:begin 
+			if(ack ==1) begin
+			nextstate = EOP1;
+			end
+			else begin
+			nextstate = WAIT5;
+			end
+			end
+		EOP1:begin
+			nextstate = EOP2;
+			end
+		EOP2:begin
+			nextstate = IDLE;
+			end
+		FIRST:begin
+			nextstate = WAIT6;
+			end
+		WAIT6:begin
+			if(ack ==1) begin
+			nextstate = SECOND;
+			end
+			else begin
+			nextstate = WAIT6;
+			end
+			end
+		SECOND:begin
+			nextstate = WAIT7;
+		end
+		WAIT7:begin
+			if(ack ==1) begin
+			nextstate = EOP1;
+			end
+			else begin
+			nextstate = WAIT7;
+			end
+		end
+		STUFF_BIT:begin
+			nextstate = WAIT3;
+		end
+					
+	endcase
+end
+
+always_comb begin
+		en = 1'b0;
+		data_id = 4'b0000;
+		get_tx = 1'b0;
+		enc_en = 1'b0;
+		data = 8'b0;
+	case(state)
+		IDLE: begin
+			en = 1'b0;
+			data_id = 4'b0000;
+			get_tx = 1'b0;
+			enc_en = 1'b0;
+			data=8'b0;
+			end
+		EIDLE:begin 
+			end
+		SYNC:begin
+			en = 1'b1;			
+			data_id = 4'b0001;
+			data = 8'b00000001;
+			enc_en = 1'b1;
+			end
+		WAIT1:begin
+			en = 1'b0;			
+			data_id = 4'b0001;
+			data = 8'b00000001;
+			enc_en = 1'b1;
+			end
+		PID:begin 
+			data_id = 4'b0010;
+			en = 1'b1;
+			enc_en = 1'b1;
+			if(tx_pack == 3'b001) begin //DATA TOKEN
+				data = 8'b00111100;
+				end
+			else if (tx_pack == 3'b010) begin  //ACK
+				data = 8'b00100100;
+				end
+			else if (tx_pack == 3'b011) begin  //NACK
+				data = 8'b10100101;
+				end
+			else begin
+				data = 8'b11100111;
+				end
+
+			end
+		WAIT2:begin
+			data_id = 4'b0010;
+			en = 1'b0;
+			enc_en = 1'b1;
+			if(tx_pack == 3'b001) begin //DATA TOKEN
+				data = 8'b00111100;
+				get_tx = 1'b1;
+				end
+			else if (tx_pack == 3'b010) begin  //ACK
+				data = 8'b00100100;
+				end
+			else if (tx_pack == 3'b011) begin  //NACK
+				data = 8'b10100101;
+				end
+			else begin
+				data = 8'b11100111;
+				end
+
+			end
+		DATA:begin
+			data_id = 4'b0011;
+			data = tx_data;
+			en = 1'b1;
+			enc_en = 1'b1;
+			end
+		WAIT3:begin 
+			if(ack ==1'b1)begin
+				data_id = 4'b0011;
+				data = prev_parallel;
+				en = 1'b1;
+				enc_en = 1'b1;
+				get_tx = 1'b1;
+				end
+			else begin 
+			data_id = 4'b0011;
+			data = prev_parallel;
+			en = 1'b1;
+			enc_en = 1'b1;
+			end
+			end
+		CRC1: begin
+			data_id = 4'b0100;
+			data = CRC[7:0];
+			en = 1'b1;
+			enc_en = 1'b1;
+			end
+		WAIT4: begin
+			data_id = 4'b0100;
+			data = prev_parallel;
+			en = 1'b0;
+			enc_en = 1'b1;
+			
+			end
+
+		CRC2: begin
+			data_id = 4'b0101;
+			data = CRC[15:7];
+			en = 1'b1;
+			enc_en = 1'b1;
+			end
+		WAIT5: begin
+			data_id = 4'b0101;
+			data = prev_parallel;
+			en = 1'b0;
+			enc_en = 1'b1;
+			end
+		
+		EOP1:begin
+			data_id = 4'b0110;
+			enc_en = 1'b1;
+			end
+		EOP2:begin 
+			data_id = 4'b0110;
+			enc_en = 1'b1;
+			end
+		FIRST:begin
+			data_id = 4'b1000;
+			enc_en = 1'b1;
+			en = 1'b1;
+			data = 8'b0011010;
+			end
+		WAIT6:begin
+			data_id = 4'b1000;
+			enc_en = 1'b1;
+			en = 1'b0;
+			data = prev_parallel;
+			end
+			
+		SECOND:begin
+			data_id = 4'b1100;
+			enc_en = 1'b1;
+			en = 1'b1;
+			data= 8'b01001100;
+			end
+		WAIT7:begin
+			data_id = 4'b1000;
+			enc_en = 1'b1;
+			en = 1'b0;
+			data = prev_parallel;
+			end
+	endcase
+
+end
+endmodule
+
+
+
+
+			
+			
+

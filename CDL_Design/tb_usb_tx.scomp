@@ -1,0 +1,9 @@
+QuestaSim-64 vlog 10.3b Compiler 2014.05 May 29 2014
+Start time: 21:27:19 on Nov 22,2019
+vlog -sv -work source_work source/tb_usb_tx.sv 
+-- Compiling module tb_usb_tx
+** Error: source/tb_usb_tx.sv(210): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+** Error: source/tb_usb_tx.sv(221): near "#": syntax error, unexpected '#'
+** Error: source/tb_usb_tx.sv(228): near "end": syntax error, unexpected end
+End time: 21:27:19 on Nov 22,2019, Elapsed time: 0:00:00
+Errors: 3, Warnings: 0

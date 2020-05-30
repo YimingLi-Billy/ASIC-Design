@@ -1,0 +1,52 @@
+[10/22 15:56:32      0s] 
+[10/22 15:56:32      0s] Cadence Innovus(TM) Implementation System.
+[10/22 15:56:32      0s] Copyright 2016 Cadence Design Systems, Inc. All rights reserved worldwide.
+[10/22 15:56:32      0s] 
+[10/22 15:56:32      0s] Version:	v16.12-s051_1, built Wed Aug 17 12:18:54 PDT 2016
+[10/22 15:56:32      0s] Options:	
+[10/22 15:56:32      0s] Date:		Tue Oct 22 15:56:32 2019
+[10/22 15:56:32      0s] Host:		cparch21.ecn.purdue.edu (x86_64 w/Linux 2.6.32-754.23.1.el6.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz 8192KB)
+[10/22 15:56:32      0s] OS:		CentOS release 6.10 (Final)
+[10/22 15:56:32      0s] 
+[10/22 15:56:32      0s] License:
+[10/22 15:56:32      0s] 		invs	Innovus Implementation System	16.1	checkout succeeded
+[10/22 15:56:32      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[10/22 15:56:40      6s] @(#)CDS: Innovus v16.12-s051_1 (64bit) 08/17/2016 12:18 (Linux 2.6.18-194.el5)
+[10/22 15:56:40      6s] @(#)CDS: NanoRoute 16.12-s051_1 NR160816-1350/16_12-UB (database version 2.30, 347.6.1) {superthreading v1.30}
+[10/22 15:56:40      6s] @(#)CDS: AAE 16.12-s026 (64bit) 08/17/2016 (Linux 2.6.18-194.el5)
+[10/22 15:56:40      6s] @(#)CDS: CTE 16.12-s023_1 () Aug 12 2016 01:35:46 ( )
+[10/22 15:56:40      6s] @(#)CDS: SYNTECH 16.12-s009_1 () Aug 11 2016 01:33:09 ( )
+[10/22 15:56:40      6s] @(#)CDS: CPE v16.12-s054
+[10/22 15:56:40      6s] @(#)CDS: IQRC/TQRC 15.2.4-s467 (64bit) Wed Jul 20 17:12:38 PDT 2016 (Linux 2.6.18-194.el5)
+[10/22 15:56:40      6s] @(#)CDS: OA 22.50-p049 Fri Jun 10 10:56:20 2016
+[10/22 15:56:40      6s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[10/22 15:56:40      6s] @(#)CDS: RCDB 11.8
+[10/22 15:56:40      6s] --- Running on cparch21.ecn.purdue.edu (x86_64 w/Linux 2.6.32-754.23.1.el6.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz 8192KB) ---
+[10/22 15:56:40      6s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_18996_cparch21.ecn.purdue.edu_mg53_g3txVN.
+
+[10/22 15:56:40      6s] 
+[10/22 15:56:40      6s] **INFO:  MMMC transition support version v31-84 
+[10/22 15:56:40      6s] 
+[10/22 15:56:40      6s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[10/22 15:56:40      6s] <CMD> suppressMessage ENCEXT-2799
+[10/22 15:56:41      6s] <CMD> getDrawView
+[10/22 15:56:41      6s] <CMD> loadWorkspace -name Physical
+[10/22 15:56:41      6s] <CMD> win
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:56:59      8s] <CMD> getCTSMode -engine -quiet
+[10/22 15:57:29     12s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[10/22 15:57:31     12s] Innovus terminated by user interrupt.
+[10/22 15:57:31     12s] 
+[10/22 15:57:31     12s] *** Memory Usage v#1 (Current mem = 498.266M, initial mem = 166.574M) ***
+[10/22 15:57:31     12s] *** Message Summary: 0 warning(s), 0 error(s)
+[10/22 15:57:31     12s] 
+[10/22 15:57:31     12s] --- Ending "Innovus" (totcpu=0:00:12.7, real=0:00:59.0, mem=498.3M) ---

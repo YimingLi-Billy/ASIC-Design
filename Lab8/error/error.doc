@@ -1,0 +1,47 @@
+Mapped Results:
+Total Score: 12.80/30.00
+Score breakdown by test case:
+ Results for basic test cases:
+  Test case 1: 1.500/1.500
+  Test case 2: 1.463/2.250
+   correct pslverr during value write during Write phase of Set and Check of Data-Size CR
+   correct pslverr during value read-back during Read-Back phase of Set and Check of Data-Size CR
+   incorrect prdata during value read-back during Read-Back phase of Set and Check of Data-Size CR
+  Test case 3: 0.731/1.125
+   correct pslverr during value write during Write phase of Set and Check of Bit-Period CR (Low Byte)
+   correct pslverr during value read-back during Read-Back phase of Set and Check of Bit-Period CR (Low Byte)
+   incorrect prdata during value read-back during Read-Back phase of Set and Check of Bit-Period CR (Low Byte)
+  Test case 4: 0.731/1.125
+   correct pslverr during value write during Write phase of Set and Check of Bit-Period CR (high Byte)
+   correct pslverr during value read-back during Read-Back phase of Set and Check of Bit-Period CR (high Byte)
+   incorrect prdata during value read-back during Read-Back phase of Set and Check of Bit-Period CR (high Byte)
+  Test case 5: 5.580/6.000
+   correct pslverr during data-size write during UART Configuration phase of 1 Normal packet
+   correct pslverr during bit-period byte[0] write during UART Configuration phase of 1 Normal packet
+   correct pslverr during bit-period byte[1] write during UART Configuration phase of 1 Normal packet
+   correct pslverr during Data Status Check during Design Status Checking phase of 1 Normal packet
+   correct prdata during Data Status Check during Design Status Checking phase of 1 Normal packet
+   correct pslverr during Error Status Check during Design Status Checking phase of 1 Normal packet
+   correct prdata during Error Status Check during Design Status Checking phase of 1 Normal packet
+   correct pslverr during RX Data Retrieval during Design Data Checking phase of 1 Normal packet
+   correct prdata during RX Data Retrieval during Design Data Checking phase of 1 Normal packet
+   correct pslverr during Post-Retrieval Data Status Check during Design Data Checking phase of 1 Normal packet
+   incorrect prdata during Post-Retrieval Data Status Check during Design Data Checking phase of 1 Normal packet
+  Test case 6: 2.790/3.000
+   correct pslverr during data-size write during UART Configuration phase of Multiple Normal Packets
+   correct pslverr during bit-period byte[0] write during UART Configuration phase of Multiple Normal Packets
+   correct pslverr during bit-period byte[1] write during UART Configuration phase of Multiple Normal Packets
+   correct pslverr during Data Status Check during Design Status Checking phase of Multiple Normal Packets
+   correct prdata during Data Status Check during Design Status Checking phase of Multiple Normal Packets
+   correct pslverr during Error Status Check during Design Status Checking phase of Multiple Normal Packets
+   correct prdata during Error Status Check during Design Status Checking phase of Multiple Normal Packets
+   correct pslverr during RX Data Retrieval during Design Data Checking phase of Multiple Normal Packets
+   correct prdata during RX Data Retrieval during Design Data Checking phase of Multiple Normal Packets
+   correct pslverr during Post-Retrieval Data Status Check during Design Data Checking phase of Multiple Normal Packets
+   incorrect prdata during Post-Retrieval Data Status Check during Design Data Checking phase of Multiple Normal Packets
+As this is supposed to be used to grade a functional design that you have
+already throughly tested, the more advanced test cases will not contribute
+points to your score until all of the Basic test cases are 100% satisfied.
+Additionally the results of the more advanced test cases will not be reported
+to you until all of the Basic test cases are 100% satisfied.
+

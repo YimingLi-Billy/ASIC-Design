@@ -1,0 +1,21 @@
+# //  Questa Sim-64
+# //  Version 10.3b linux_x86_64 May 29 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -Lf /home/ecegrid/a/ece337/Course_Prod/IP_Libs/Lab_IP_Lib/Vsim -L /home/ecegrid/a/ece337/Course_Prod/Cell_Libs/AMI_05/vhdl_work -L /home/ecegrid/a/ece337/Class0.5u/GOLD_LIB "+no_glitch_msg" -coverage -voptargs="+acc" -i -t ps source_work/.usb_tx 
+# Start time: 14:17:45 on Nov 20,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: source/usb_tx.sv(15): Module 'usb_controller' is not defined.
+# ** Error: source/usb_tx.sv(32): Module 'usb_bit_stuffer' is not defined.
+# ** Error: source/usb_tx.sv(38): Module 'usb_pts' is not defined.
+# ** Error: source/usb_tx.sv(45): Module 'usb_encoder' is not defined.
+# ** Error: source/usb_tx.sv(55): Module 'CDL_CRC_16' is not defined.
+# ** Error: source/usb_tx.sv(61): Module 'usb_timer' is not defined.
+# Optimization failed
+# Error loading design

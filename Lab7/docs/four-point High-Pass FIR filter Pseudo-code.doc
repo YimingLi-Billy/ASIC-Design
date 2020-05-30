@@ -1,0 +1,29 @@
+ECE337
+Lab 7
+Yiming Li (li2837) (mg53)
+Pseudo-code for four-point High-Pass FIR filter
+
+idle : 	if(!dr) goto idle;
+store:  if(!dr) goto eidle;
+	reg[5] = data;
+	err = 0;
+zero :  reg[0] = 0;
+sort1:  reg[1] = reg[2];
+sort2:  reg[2] = reg[3];
+sort3:  reg[3] = reg[4];
+sort4:  reg[4] = reg[5];
+mul1 :  reg[10] = reg[1] * reg[6];
+add1 :  reg[0] = reg[0] + reg[10];
+	if (V) goto eidle;
+mul2 :  reg[10] = reg[2] * reg[7];
+sub1 :  reg[0] = reg[0] - reg[10];
+	if (V) goto eidle;
+mul3 :  reg[10] = reg[3] * reg[8];
+add2 :  reg[0] = reg[0] + reg[10];
+	if (V) goto eidle;
+mul4 :  reg[10] = reg[4] * reg[9];
+sub2 :  reg[0] = reg[0] - reg[10];
+	if (V) goto eidle;
+eidle:  err = 1;
+	if (data_ready = 1) goto store;
+	if (data_ready = 0) goto eidle;
